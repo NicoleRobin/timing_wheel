@@ -1,6 +1,8 @@
 package timingwheel
 
-import "testing"
+import (
+	"testing"
+)
 
-func Test2(t *testing.T) {
+func TestSimpleTimingWheel(t *testing.T) {
 }

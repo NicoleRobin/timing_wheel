@@ -10,9 +10,6 @@ func NewTimingWheel() *TimingWheel {
 func (tw *TimingWheel) Start() {
 }
 
-type Task interface {
-}
-
 func (tw *TimingWheel) Add(t Task) error {
 	return nil
 }
